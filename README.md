@@ -10,6 +10,7 @@ Please, be aware that the script is currently **NOT** working.
 
 ## Milestones
 This script currently only downloads and parses the json from PokeZZ
+
 What it will be capable of do:
 - Read pokemon list
 - Select what pokemon to snipe using a blacklist and/or a whitelist
