@@ -17,7 +17,7 @@ class ConfigReader:
     def saveConfig(self):
         print("Saving config file {}".format(self.filename))
         import json
-        config = {"pokezz_address":"http://pokezz.com/pokemons.json","use_blacklist":"false","use_whitelist":"false","whitelist":["Dragonite","Blastoise","Charizard"],"blacklist":["Rattata","Zubat"]}
+        config = {"snipe_urls":["http://pokezz.com/pokemons.json"],"use_blacklist":"false","use_whitelist":"false","whitelist":["Dragonite","Blastoise","Charizard","..."],"blacklist":["Rattata","Zubat","..."]}
         with open(self.filename, 'w+') as f:
             json.dump(config, f)
         print("Config file {} saved successful".format(self.filename))
