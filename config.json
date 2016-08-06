@@ -6,11 +6,13 @@
           [
             "Dragonite",
             "Blastoise",
-            "Charizard"
+            "Charizard",
+            "..."
           ],
   "blacklist":
           [
             "Rattata",
-            "Zubat"
+            "Zubat",
+            "..."
           ]
 }
