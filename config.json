@@ -1,0 +1,16 @@
+{
+  "pokezz_address": "http://pokezz.com/pokemons.json",
+  "use_blacklist": "false",
+  "use_whitelist": "false",
+  "whitelist":
+          [
+            "Dragonite",
+            "Blastoise",
+            "Charizard"
+          ],
+  "blacklist":
+          [
+            "Rattata",
+            "Zubat"
+          ]
+}
